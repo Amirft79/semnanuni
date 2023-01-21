@@ -6,9 +6,13 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import ir.ac.semnan.golestan.app.mysemnanuni.R
+import ir.ac.semnan.golestan.app.mysemnanuni.databinding.FragmentDashboardBinding
 
 
 class DashboardFragment : Fragment() {
+
+    private var _binding:FragmentDashboardBinding?=null
+    private val binding get() = _binding!!
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,7 +25,8 @@ class DashboardFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_dashboard, container, false)
+        _binding=FragmentDashboardBinding.inflate(layoutInflater)
+        return binding.root
     }
 
 

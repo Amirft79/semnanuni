@@ -8,11 +8,16 @@ import android.view.ViewGroup
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import ir.ac.semnan.golestan.app.mysemnanuni.R
+import ir.ac.semnan.golestan.app.mysemnanuni.databinding.FragmentScoreDetailBinding
 
 
 class ScoreDetailFragment : Fragment() {
 
     private lateinit var navController:NavController
+
+    private var _binding:FragmentScoreDetailBinding?=null
+
+    private val binding get()=_binding!!
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -25,7 +30,8 @@ class ScoreDetailFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_score_detail, container, false)
+        _binding=FragmentScoreDetailBinding.inflate(layoutInflater)
+        return binding.root
 
     }
 

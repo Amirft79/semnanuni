@@ -51,7 +51,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="@string/my_name_is_salami"
-                android:textColor="#ffffff"
+                android:textColor="@color/white"
                 android:textSize="20sp"
                 app:layout_constraintEnd_toStartOf="@+id/iv_student_salami"
                 app:layout_constraintTop_toTopOf="parent">
@@ -63,7 +63,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/student_family_name"
-                android:textColor="#ffffff"
+                android:textColor="@color/white"
                 android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="@id/tv_student_name"
                 app:layout_constraintEnd_toStartOf="@id/tv_student_name"
@@ -77,7 +77,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="5dp"
                 android:text="@string/subject_name"
-                android:textColor="#ffffff"
+                android:textColor="@color/white"
                 android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="@id/tv_student_name"
                 app:layout_constraintTop_toBottomOf="@+id/tv_student_name">
@@ -90,7 +90,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="5dp"
                 android:text="@string/student_user_name_code"
-                android:textColor="#ffffff"
+                android:textColor="@color/white"
                 android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="@id/tv_student_name"
                 app:layout_constraintTop_toBottomOf="@+id/tv_student_subject">
@@ -124,6 +124,7 @@
                     android:layout_weight="1"
                     android:layout_margin="5dp"
                     android:clickable="true"
+                    android:outlineAmbientShadowColor="@color/black"
                     app:cardElevation="16dp"
                     app:cardCornerRadius="10dp">
                     <androidx.constraintlayout.widget.ConstraintLayout
@@ -148,7 +149,7 @@
                             app:layout_constraintBottom_toBottomOf="parent"
                             android:textSize="17sp"
                             android:textStyle="bold"
-                            android:textColor="#000000"
+                            android:textColor="@color/black"
                             app:layout_constraintTop_toBottomOf="@id/iv_card_iv_inside10"
                             android:text="پروفایل استاید">
                         </TextView>
@@ -187,7 +188,7 @@
                             app:layout_constraintBottom_toBottomOf="parent"
                             android:textSize="20sp"
                             android:textStyle="bold"
-                            android:textColor="#000000"
+                            android:textColor="@color/black"
                             app:layout_constraintTop_toBottomOf="@id/iv_card_iv_inside9"
                             android:text="مسابقه کتاب">
                         </TextView>
@@ -226,7 +227,7 @@
                             app:layout_constraintBottom_toBottomOf="parent"
                             android:textSize="17sp"
                             android:textStyle="bold"
-                            android:textColor="#000000"
+                            android:textColor="@color/black"
                             app:layout_constraintTop_toBottomOf="@id/iv_card_iv_inside7"
                             android:text="فارغ التحصیل">
                         </TextView>
@@ -272,7 +273,7 @@
                             app:layout_constraintBottom_toBottomOf="parent"
                             android:textSize="17sp"
                             android:textStyle="bold"
-                            android:textColor="#000000"
+                            android:textColor="@color/black"
                             app:layout_constraintTop_toBottomOf="@id/iv_card_iv_inside6"
                             android:text=" تماس دانشکده">
                         </TextView>
@@ -311,7 +312,7 @@
                             android:textStyle="bold"
                             android:lines="1"
                             android:gravity="center"
-                            android:textColor="#000000"
+                            android:textColor="@color/black"
                             app:layout_constraintTop_toBottomOf="@id/iv_card_iv_inside5"
                             android:text="استعداددرخشان">
                         </TextView>
@@ -349,7 +350,7 @@
                             app:layout_constraintBottom_toBottomOf="parent"
                             android:textSize="20sp"
                             android:textStyle="bold"
-                            android:textColor="#000000"
+                            android:textColor="@color/black"
                             app:layout_constraintTop_toBottomOf="@id/iv_card_iv_inside4"
                             android:text="رزور غذا">
                         </TextView>
@@ -394,7 +395,7 @@
                             app:layout_constraintBottom_toBottomOf="parent"
                             android:textSize="20sp"
                             android:textStyle="bold"
-                            android:textColor="#000000"
+                            android:textColor="@color/black"
                             app:layout_constraintTop_toBottomOf="@id/iv_card_iv_inside2"
                             android:text="حمل ونقل">
                         </TextView>
@@ -432,7 +433,7 @@
                             app:layout_constraintBottom_toBottomOf="parent"
                             android:textSize="20sp"
                             android:textStyle="bold"
-                            android:textColor="#000000"
+                            android:textColor="@color/black"
                             app:layout_constraintTop_toBottomOf="@id/iv_card_iv_inside3"
                             android:text="نقشه دانشگاه">
                         </TextView>
@@ -471,7 +472,7 @@
                         app:layout_constraintBottom_toBottomOf="parent"
                         android:textSize="20sp"
                         android:textStyle="bold"
-                        android:textColor="#000000"
+                        android:textColor="@color/black"
                         app:layout_constraintTop_toBottomOf="@id/iv_card_iv_inside1"
                         android:text="خریداینترنت">
                     </TextView>
