@@ -28,4 +28,9 @@
     <string name="student_family_name">نام خانوادگی:سلامی</string>
     <string name="subject_name">رشته:مهندسی کامپیوتر</string>
     <string name="student_user_name_code">شماره دانشجویی:9811126038</string>
+    <string name="nasiri_notif">پیام تبریک رییئس دانشگاه سمنان به مناسبت عید غدیر</string>
+    <string name="nasiri_notif2">به گزارش روابط عمومی دانشگاه سمنان دکتر مسعود نصیری عید غدیر خم را تبریک گفت  </string>
+    <string name="nasiri_notif3"> سایر اخبار </string>
+
+
 </resources>
