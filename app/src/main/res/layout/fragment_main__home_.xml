@@ -95,11 +95,38 @@
             android:layout_height="90dp"
             app:cardCornerRadius="16dp"
             android:layout_margin="10dp"
-
             app:cardElevation="8dp">
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/iv_prof"
+                    android:layout_width="77dp"
+                    android:layout_height="46dp"
+                    android:layout_marginEnd="24dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ostad"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/tv_ostad"
+                    android:layout_width="236dp"
+                    android:layout_height="40dp"
+                    android:layout_marginEnd="16dp"
+                    android:text=" مدیر اجرایی نشریه مدلینگ در مهندسی انتخاب شد"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@id/iv_prof"
+                    app:layout_constraintEnd_toStartOf="@id/iv_prof"
+                    app:layout_constraintTop_toTopOf="@id/iv_prof"
+                    app:layout_constraintVertical_bias="0.0">
+
+                </TextView>
             </androidx.constraintlayout.widget.ConstraintLayout>
         </androidx.cardview.widget.CardView>
 
@@ -108,8 +135,39 @@
             android:layout_height="90dp"
             app:cardCornerRadius="16dp"
             android:layout_margin="10dp"
-
             app:cardElevation="8dp">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/iv_prof1"
+                    android:layout_width="77dp"
+                    android:layout_height="46dp"
+                    android:layout_marginEnd="24dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/unientry"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/tv_ostad1"
+                    android:layout_width="236dp"
+                    android:layout_height="40dp"
+                    android:layout_marginEnd="16dp"
+                    android:text="رتبه بندی جدید دانشگاه سمنان"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@id/iv_prof1"
+                    app:layout_constraintEnd_toStartOf="@id/iv_prof1"
+                    app:layout_constraintTop_toTopOf="@id/iv_prof1"
+                    app:layout_constraintVertical_bias="0.0">
+
+                </TextView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
@@ -118,17 +176,39 @@
             android:layout_margin="10dp"
             app:cardCornerRadius="16dp"
             app:cardElevation="8dp">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/iv_prof2"
+                    android:layout_width="77dp"
+                    android:layout_height="46dp"
+                    android:layout_marginEnd="24dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/hamaesh"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/tv_ostad2"
+                    android:layout_width="236dp"
+                    android:layout_height="40dp"
+                    android:layout_marginEnd="16dp"
+                    android:text="فارغ التحصیل شدن دانشجویان سال98"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@id/iv_prof2"
+                    app:layout_constraintEnd_toStartOf="@id/iv_prof2"
+                    app:layout_constraintTop_toTopOf="@id/iv_prof2"
+                    app:layout_constraintVertical_bias="0.0">
+
+                </TextView>
+            </androidx.constraintlayout.widget.ConstraintLayout>
         </androidx.cardview.widget.CardView>
-
-
-
-
-
     </LinearLayout>
-
-
-
-
 
 
 
