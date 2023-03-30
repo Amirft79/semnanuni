@@ -53,6 +53,10 @@ class DashboardFragment : Fragment() {
             val action=DashboardFragmentDirections.actionDashboardFragmentToTeacherFragment()
             navController.navigate(action)
         }
+        binding.cardOne1.setOnClickListener {
+            val action=DashboardFragmentDirections.actionDashboardFragmentToBusDriveFragment()
+            navController.navigate(action)
+        }
 
 
     }
