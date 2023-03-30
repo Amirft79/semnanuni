@@ -49,6 +49,10 @@ class DashboardFragment : Fragment() {
             val action=DashboardFragmentDirections.actionDashboardFragmentToMapFragment()
             navController.navigate(action)
         }
+        binding.cardOne.setOnClickListener {
+            val action=DashboardFragmentDirections.actionDashboardFragmentToTeacherFragment()
+            navController.navigate(action)
+        }
 
 
     }
