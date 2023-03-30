@@ -37,9 +37,19 @@ class DashboardFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         navController=Navigation.findNavController(view)
+       doClicks()
+    }
+
+    private fun doClicks(){
         binding.card6.setOnClickListener {
             val action=DashboardFragmentDirections.actionDashboardFragmentToFoodFragment()
             navController.navigate(action)
         }
+        binding.card7.setOnClickListener {
+            val action=DashboardFragmentDirections.actionDashboardFragmentToMapFragment()
+            navController.navigate(action)
+        }
+
+
     }
 }
