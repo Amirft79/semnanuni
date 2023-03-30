@@ -54,6 +54,48 @@
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent">
+                        <ImageView
+                            android:id="@+id/iv_teacher1"
+                            android:layout_width="100dp"
+                            android:layout_margin="10dp"
+                            android:layout_height="90dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            android:src="@drawable/dr_rahmanimanesh"
+                            >
+                        </ImageView>
+
+                        <TextView
+                            android:id="@+id/tv_teacher1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="دکتر محمد رحمانی منش"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toStartOf="@id/iv_teacher1"
+                            app:layout_constraintHorizontal_bias="0.853"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="@id/iv_teacher1">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/tv_ins1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:text="استادیارگروه آموزشی مهندسی نرم افزار"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            app:layout_constraintBottom_toBottomOf="@id/iv_teacher1"
+                            app:layout_constraintEnd_toStartOf="@id/iv_teacher1"
+                            app:layout_constraintHorizontal_bias="0.853"
+                            app:layout_constraintStart_toStartOf="parent">
+
+                        </TextView>
+
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -67,6 +109,48 @@
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent">
+                        <ImageView
+                            android:id="@+id/iv_teacher2"
+                            android:layout_width="100dp"
+                            android:layout_margin="10dp"
+                            android:layout_height="90dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            android:src="@drawable/dr_emami"
+                            >
+                        </ImageView>
+
+                        <TextView
+                            android:id="@+id/tv_teacher2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="دکتر سمانه امامی"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toStartOf="@id/iv_teacher2"
+                            app:layout_constraintHorizontal_bias="0.853"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="@id/iv_teacher2">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/tv_ins2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:text="استادیارگروه آموزشی مهندسی نرم افزار"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            app:layout_constraintBottom_toBottomOf="@id/iv_teacher2"
+                            app:layout_constraintEnd_toStartOf="@id/iv_teacher2"
+                            app:layout_constraintHorizontal_bias="0.853"
+                            app:layout_constraintStart_toStartOf="parent">
+
+                        </TextView>
+
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -80,8 +164,51 @@
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent">
+                        <ImageView
+                            android:id="@+id/iv_teacher3"
+                            android:layout_width="100dp"
+                            android:layout_margin="10dp"
+                            android:layout_height="90dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            android:src="@drawable/dr_kiani"
+                            >
+                        </ImageView>
+
+                        <TextView
+                            android:id="@+id/tv_teacher3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="دکتر کوروش کیانی"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toStartOf="@id/iv_teacher3"
+                            app:layout_constraintHorizontal_bias="0.853"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="@id/iv_teacher3">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/tv_ins3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:text="استادیارگروه آموزشی مهندسی نرم افزار"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            app:layout_constraintBottom_toBottomOf="@id/iv_teacher3"
+                            app:layout_constraintEnd_toStartOf="@id/iv_teacher3"
+                            app:layout_constraintHorizontal_bias="0.853"
+                            app:layout_constraintStart_toStartOf="parent">
+
+                        </TextView>
+
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
+
 
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
@@ -93,8 +220,51 @@
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent">
+                        <ImageView
+                            android:id="@+id/iv_teacher4"
+                            android:layout_width="100dp"
+                            android:layout_margin="10dp"
+                            android:layout_height="90dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            android:src="@drawable/rastgo"
+                            >
+                        </ImageView>
+
+                        <TextView
+                            android:id="@+id/tv_teacher4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="دکتر راضیه راستگو"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toStartOf="@id/iv_teacher4"
+                            app:layout_constraintHorizontal_bias="0.853"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="@id/iv_teacher4">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/tv_ins4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:text="استادیارگروه آموزشی مهندسی نرم افزار"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            app:layout_constraintBottom_toBottomOf="@id/iv_teacher4"
+                            app:layout_constraintEnd_toStartOf="@id/iv_teacher4"
+                            app:layout_constraintHorizontal_bias="0.853"
+                            app:layout_constraintStart_toStartOf="parent">
+
+                        </TextView>
+
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
+
 
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
@@ -106,8 +276,51 @@
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent">
+                        <ImageView
+                            android:id="@+id/iv_teacher5"
+                            android:layout_width="100dp"
+                            android:layout_margin="10dp"
+                            android:layout_height="90dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            android:src="@drawable/dorrigiv"
+                            >
+                        </ImageView>
+
+                        <TextView
+                            android:id="@+id/tv_teacher5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="دکتر مرتضی دریگیو"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toStartOf="@id/iv_teacher5"
+                            app:layout_constraintHorizontal_bias="0.853"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="@id/iv_teacher5">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/tv_ins5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:text="استادیارگروه آموزشی مهندسی نرم افزار"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            app:layout_constraintBottom_toBottomOf="@id/iv_teacher5"
+                            app:layout_constraintEnd_toStartOf="@id/iv_teacher5"
+                            app:layout_constraintHorizontal_bias="0.853"
+                            app:layout_constraintStart_toStartOf="parent">
+
+                        </TextView>
+
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
+
 
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
