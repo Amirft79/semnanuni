@@ -57,6 +57,10 @@ class DashboardFragment : Fragment() {
             val action=DashboardFragmentDirections.actionDashboardFragmentToBusDriveFragment()
             navController.navigate(action)
         }
+        binding.card8.setOnClickListener {
+            val action=DashboardFragmentDirections.actionDashboardFragmentToInternetFragment()
+            navController.navigate(action)
+        }
 
 
     }
