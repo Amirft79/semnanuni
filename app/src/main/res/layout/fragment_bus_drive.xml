@@ -36,10 +36,21 @@
         </TextView>
 
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@id/tv_busText"
+            app:layout_constraintEnd_toEndOf="@id/tv_busText"
+            app:layout_constraintTop_toBottomOf="@id/tv_busText"
+            android:src="@drawable/busanim">
+        </ImageView>
+
+
         <TextView
             android:id="@+id/tv_bus_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
             android:text="ساعات حرکت اتوبوس ها از درب دانشگاه"
             android:textColor="#ffffff"
             android:textSize="25sp"
@@ -65,7 +76,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@id/tv_bus_text"
             app:layout_constraintTop_toBottomOf="@id/tv_bus_text"
-            app:layout_constraintVertical_bias="0.082"></TextView>
+            app:layout_constraintVertical_bias="0.082">
+        </TextView>
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
