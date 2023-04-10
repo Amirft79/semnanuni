@@ -33,6 +33,9 @@
         <action
             android:id="@+id/action_dashboardFragment_to_internetFragment"
             app:destination="@id/internetFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_phoneFragment"
+            app:destination="@id/phoneFragment" />
     </fragment>
     <fragment
         android:id="@+id/notifictionFragment"
@@ -123,6 +126,15 @@
         tools:layout="@layout/fragment_internet" >
         <action
             android:id="@+id/action_internetFragment_to_dashboardFragment"
+            app:destination="@id/dashboardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/phoneFragment"
+        android:name="ir.ac.semnan.golestan.app.mysemnanuni.ui.PhoneFragment"
+        android:label="fragment_phone"
+        tools:layout="@layout/fragment_phone" >
+        <action
+            android:id="@+id/action_phoneFragment_to_dashboardFragment"
             app:destination="@id/dashboardFragment" />
     </fragment>
 </navigation>
