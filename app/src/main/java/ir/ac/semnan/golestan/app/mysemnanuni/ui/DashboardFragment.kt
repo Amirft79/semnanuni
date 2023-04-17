@@ -65,5 +65,9 @@ class DashboardFragment : Fragment() {
             val action=DashboardFragmentDirections.actionDashboardFragmentToPhoneFragment()
             navController.navigate(action)
         }
+        binding.cardTwo.setOnClickListener {
+            val action=DashboardFragmentDirections.actionDashboardFragmentToReadBookFragment()
+            navController.navigate(action)
+        }
     }
 }

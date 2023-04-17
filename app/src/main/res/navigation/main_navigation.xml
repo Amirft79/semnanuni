@@ -36,6 +36,9 @@
         <action
             android:id="@+id/action_dashboardFragment_to_phoneFragment"
             app:destination="@id/phoneFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_readBookFragment"
+            app:destination="@id/readBookFragment" />
     </fragment>
     <fragment
         android:id="@+id/notifictionFragment"
@@ -135,6 +138,15 @@
         tools:layout="@layout/fragment_phone" >
         <action
             android:id="@+id/action_phoneFragment_to_dashboardFragment"
+            app:destination="@id/dashboardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/readBookFragment"
+        android:name="ir.ac.semnan.golestan.app.mysemnanuni.ui.ReadBookFragment"
+        android:label="fragment_read_book"
+        tools:layout="@layout/fragment_read_book" >
+        <action
+            android:id="@+id/action_readBookFragment_to_dashboardFragment"
             app:destination="@id/dashboardFragment" />
     </fragment>
 </navigation>
