@@ -69,5 +69,9 @@ class DashboardFragment : Fragment() {
             val action=DashboardFragmentDirections.actionDashboardFragmentToReadBookFragment()
             navController.navigate(action)
         }
+        binding.card5.setOnClickListener {
+            val action=DashboardFragmentDirections.actionDashboardFragmentToIntelStudentFragment()
+            navController.navigate(action)
+        }
     }
 }
